@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "Unfunny",
+  "name": "Unfunny",
+  "author": "Kaitlyn",
+  "version": "1.0.0",
+  "description": "Stops certain plugins from showing unfunny or unwanted content on certain days in the year.",
+  "gameVersion": "1.29.0",
+  "dependsOn": {
+    "BSIPA": "^4.2.2"
+  },
+  "loadBefore": [
+    "BeatSaberMarkupLanguage"
+  ]
+}
